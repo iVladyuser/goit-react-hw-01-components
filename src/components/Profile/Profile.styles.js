@@ -5,8 +5,8 @@ export const ProfileCard = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 40px auto;
-  width: 400px;
+  margin: 50px auto;
+  width: 350px;
   border-radius: 4px;
   overflow: hidden;
 
@@ -18,7 +18,7 @@ export const Description = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 60px 0;
   width: 350px;
   margin: 0 auto;
   background-color: #fff;
@@ -61,7 +61,7 @@ export const StatsItem = styled.li`
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
-  width: 30%;
+  width: 33.3%;
   &:not(:last-child) {
     border-right: 1px solid black;
   }
