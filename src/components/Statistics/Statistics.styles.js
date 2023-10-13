@@ -13,8 +13,8 @@ export const StatisticCard = styled.div`
 `;
 
 export const Title = styled.h2`
-  padding: 15px 0;
-  font-size: 16px;
+  padding: 30px 0;
+  font-size: 22px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: red;
