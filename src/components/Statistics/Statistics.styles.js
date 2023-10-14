@@ -25,6 +25,7 @@ export const StatList = styled.ul`
   flex-direction: row;
   width: 100%;
   background-color: #b0c4de;
+  box-shadow: rgb(32 32 32) 0 0px 10px 2px;
 `;
 
 export const Item = styled.li`

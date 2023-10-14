@@ -1,28 +1,35 @@
 import React from 'react';
+import {
+  Table,
+  TableContent,
+  TableHead,
+  TableItem,
+  TableTitle,
+} from './TransactionHistory.styles';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table class="transaction-history">
-      <thead>
+    <Table>
+      <TableHead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <TableTitle>Type</TableTitle>
+          <TableTitle>Amount</TableTitle>
+          <TableTitle>Currency</TableTitle>
         </tr>
-      </thead>
+      </TableHead>
 
       <tbody>
         {items.map(({ id, type, amount, currency }) => {
           return (
-            <tr key={id}>
-              <td>{type}</td>
-              <td>{amount}</td>
-              <td>{currency}</td>
-            </tr>
+            <TableItem key={id}>
+              <TableContent>{type}</TableContent>
+              <TableContent>{amount}</TableContent>
+              <TableContent>{currency}</TableContent>
+            </TableItem>
           );
         })}
       </tbody>
-    </table>
+    </Table>
   );
 };
 

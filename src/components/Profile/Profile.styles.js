@@ -9,7 +9,7 @@ export const ProfileCard = styled.div`
   width: 350px;
   border-radius: 4px;
   overflow: hidden;
-
+  box-shadow: rgb(32 32 32) 0 0px 10px 2px;
   background-color: #f5deb3;
 `;
 
